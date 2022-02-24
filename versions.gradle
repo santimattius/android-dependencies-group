@@ -32,3 +32,17 @@ project.ext {
     fragment_version='1.3.6'
     detekt_version='1.18.1'
 }
+
+allprojects{
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        // LIBRARIES GROUP
+        apply from: "$rootProject/group.gradle"
+    }
+}
