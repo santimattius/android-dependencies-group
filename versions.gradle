@@ -43,6 +43,6 @@ allprojects{
 
     dependencies {
         // LIBRARIES GROUP
-        apply from: "group.gradle"
+        apply from: "https://raw.githubusercontent.com/santimattius/android-dependencies-group/main/group.gradle"
     }
 }
