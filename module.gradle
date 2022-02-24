@@ -1,0 +1,10 @@
+
+//TODO: sample add root gradle project
+buildscript {
+
+    // ALL VERSIONS
+    apply from: "$rootProject/versions.gradle"
+
+
+}
+
