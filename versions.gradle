@@ -43,6 +43,6 @@ allprojects{
 
     dependencies {
         // LIBRARIES GROUP
-        apply from: "$rootProject/group.gradle"
+        apply from: "group.gradle"
     }
 }
