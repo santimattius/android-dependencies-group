@@ -3,9 +3,7 @@ def Group(Closure closure) {
     return closure
 }
 
-allprojects{
- dependencies{
-    
+project.ext {
     androidBasic = Group {
         implementation "androidx.core:core-ktx:$core_ktx_version"
         implementation "androidx.appcompat:appcompat:$appcompat_version"
@@ -101,5 +99,4 @@ allprojects{
             exclude group: "androidx.test", module: "core"
         }
     }
- }
 }
